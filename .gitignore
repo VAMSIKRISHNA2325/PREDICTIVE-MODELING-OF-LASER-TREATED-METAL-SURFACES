@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Models (large binary files — regenerate with python train.py)
+models/*.pkl
+
+# Generated reports (regenerate with python generate_report.py)
+Project_Report.docx
+ML_Study_Report.docx
+
+# Temp files
+_*.py
+_*.json
+_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
